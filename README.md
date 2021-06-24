@@ -286,7 +286,7 @@ terrance.waiters #=> [#<Waiter:0x00007fa23f18f860 @name="Jason", @yrs_experience
 terrance.waiters.length #=> 3
 ```
 
-And to finish out first real-life example, if Terrance wanted to find the name of
+And to finish our first real-life example, if Terrance wanted to find the name of
 his last waiter, we can use the `#waiters` method, then just get the `name` of the
 last `waiter` in the Array.
 
